@@ -33,7 +33,7 @@ public class Login extends BaseTest{
       driver.manage().window().maximize();
 	  driver.findElement(By.id("LoginForm:loginName")).clear();
 	  driver.findElement(By.id("LoginForm:loginName")).sendKeys("pallavi@patseer.com");
-	  driver.findElement(By.id("LoginForm:password")).sendKeys("771baner");
+	  driver.findElement(By.id("LoginForm:password")).sendKeys("patgrid771");
 	  driver.findElement(By.id("LoginForm:submitButton")).click();
 	  
       Thread.sleep(1500);
