@@ -4,8 +4,18 @@
 	<test name="SearchSideScripts">
 		<classes>
 
-			<class name="Login.Login"/>		
+		<class name="Login.Login"/>		
 			
+			<class name="SearchForms.SearchScript">
+			<methods>
+					<include name="SelectQuicksearch"/>
+       	  			<include name="Qid"/>	
+       	  			<include name="CommentTags" />
+       	  			<include name="ScriptID"/>
+       	  			<include name="ExportClasses" />
+       	  			<include name="Export" /> 	
+        	</methods>
+			</class>
 			
         </classes>
      </test>
